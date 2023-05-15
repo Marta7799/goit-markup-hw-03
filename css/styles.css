@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --main-text-color: #212121;
   --secondary-text-color: #ffffff;
@@ -30,12 +35,54 @@ ul,
 ol {
   list-style: none;
 }
-.header {
+.container {
   background-color: #ffffff;
   color: #212121;
   font-weight: 500;
   font-size: 14;
   line-height: 1.14;
+  width: 1600px;
+}
+.wrapper {
+  width: 254px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25;
+}
+.wrapper-contact {
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding-left: 1078px;
+}
+.agencja {
+  width: 53px;
+  height: 16px;
+  margin: 32px 1094px 32pc 453px;
+}
+.portfolio {
+  width: 58px;
+  height: 16px;
+  padding: 32px 990px 32px 552px;
+}
+.contact {
+  width: 51px;
+  height: 16px;
+  padding: 32px 893px 32px 656px;
+}
+.contact-mail {
+  width: 135px;
+  height: 16px;
+  padding: 32px 387px 32px 1078px;
+}
+.contact-tel {
+  width: 110px;
+  height: 16px;
+  padding: 32px 227px 32px 1263px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -48,7 +95,7 @@ ol {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-:current {
+.current {
   color: var(--acent-color);
 }
 
@@ -74,6 +121,7 @@ ol {
   font-size: 26px;
   line-height: 1.2;
   color: #212121;
+  padding: 24px 1240px 25px 215px;
 }
 .logo {
   color: var(--acent-color);
@@ -88,6 +136,9 @@ ol {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  width: 1600px;
+  height: 600px;
+  padding-top: 80px;
 }
 
 .effects-title {
