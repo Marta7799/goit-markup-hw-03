@@ -67,10 +67,12 @@ a {
   font-weight: 500;
   font-size: 14;
   line-height: 1.14;
+  border-bottom: 1px solid var(--line-color);
 }
 .container {
   display: flex;
   width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -80,7 +82,7 @@ a {
   font-size: 26px;
   line-height: 1.2;
   color: #212121;
-  margin-right: 50px;
+  margin-right: 93px;
   padding-bottom: 25px;
   padding-top: 24px;
 }
@@ -119,15 +121,6 @@ a {
 .current {
   color: var(--acent-color);
 }
-
-.contact-mail:hover,
-.contact-mail:focus {
-  color: var(--acent-color);
-}
-.contact-tel:focus,
-.contact-tel:hover {
-  color: var(--acent-color);
-}
 .contact-item {
   font-weight: 500;
   font-size: 14px;
@@ -136,6 +129,14 @@ a {
   color: var(--other-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--acent-color);
+}
+.contact-tel:focus,
+.contact-tel:hover {
+  color: var(--acent-color);
 }
 .section {
   padding-top: 94px;
