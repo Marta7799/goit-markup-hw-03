@@ -396,6 +396,7 @@ address-tel:focus {
 .portfolio-img-link {
   width: 370px;
   gap: 30px;
+  border: 1px solid #eeeeee;
 }
 .portfolio-img-title {
   font-weight: 700;
