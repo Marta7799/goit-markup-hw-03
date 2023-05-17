@@ -390,11 +390,11 @@ address-tel:focus {
 .portfolio-img-list {
   display: flex;
   gap: 30px;
-  border: 1px solid #eeeeee;
 }
 .portfolio-img-item {
   width: 370px;
   gap: 30px;
+  border: 1px solid #eeeeee;
 }
 .portfolio-img-title {
   font-weight: 700;
