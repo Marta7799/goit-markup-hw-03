@@ -71,8 +71,8 @@ a {
 }
 .container {
   width: 1200px;
-  max-width: 100%;
   margin: 0 auto;
+  max-width: 100%;
   padding: 0 15px;
 }
 .header-wrap {
@@ -148,16 +148,10 @@ a {
 
 .effects {
   background-color: var(--background-effects-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  justify-content: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--secondary-text-color);
-  width: 1200px;
   height: 600px;
+  padding: 200px 0;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .effects-title {
@@ -165,13 +159,11 @@ a {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  justify-content: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
-  width: 696px;
-  flex-wrap: wrap;
-  margin: 100px 250px 30px 250px;
+  max-width: 696px;
+  margin: o auto;
 }
 .effects-button:focus,
 .effects-button:hover {
@@ -265,6 +257,7 @@ a {
   gap: 30px;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 .team-name {
   font-weight: 500;
@@ -394,6 +387,8 @@ address-tel:focus {
 .portfolio-img-item {
   width: 370px;
   gap: 30px;
+}
+.border-porfolio {
   border: 1px solid #eeeeee;
 }
 .portfolio-img-title {
