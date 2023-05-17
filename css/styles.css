@@ -378,8 +378,8 @@ address-tel:focus {
   padding: 6px 22px 6px 22px;
   margin-bottom: 174px;
 }
-.porfolio-item:first-child {
-  margin-left: 510px;
+.portfolio-item:first-child {
+  margin-left: 281px;
 }
 .portfolio-item:last-child {
   margin-right: 518px;
@@ -391,6 +391,10 @@ address-tel:focus {
 }
 .portfolio-img-list {
   display: flex;
+}
+.portfolio-img-link {
+  width: 370px;
+  gap: 30px;
 }
 .portfolio-img-title {
   font-weight: 700;
