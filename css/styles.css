@@ -70,11 +70,14 @@ a {
   border-bottom: 1px solid var(--line-color);
 }
 .container {
-  background-color: #ffffff;
   width: 1200px;
   max-width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+.header-wrap {
+  display: flex;
+  align-items: center;
 }
 .webstudio {
   font-family: "Raleway";
@@ -152,7 +155,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
-  width: 1600px;
+  width: 1200px;
   height: 600px;
   padding-top: 80px;
   padding-top: 94px;
@@ -192,7 +195,7 @@ a {
   text-align: center;
 }
 .description {
-  background-color: var(--background-section);
+  background-color: var(--background-color);
   display: flex;
   padding-bottom: 0;
   margin: 0 auto;
@@ -276,6 +279,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  width: 76px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--other-text-color);
