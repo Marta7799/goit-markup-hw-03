@@ -391,6 +391,7 @@ address-tel:focus {
 }
 .portfolio-img-list {
   display: flex;
+  gap: 30px;
 }
 .portfolio-img-link {
   width: 370px;
