@@ -68,6 +68,8 @@ a {
   font-size: 14;
   line-height: 1.14;
   border-bottom: 1px solid var(--line-color);
+  height: 80px;
+  margin: 0 auto;
 }
 .container {
   width: 1200px;
@@ -86,8 +88,8 @@ a {
   line-height: 1.2;
   color: #212121;
   margin-right: 93px;
-  padding-bottom: 25px;
-  padding-top: 24px;
+  margin-bottom: 25px;
+  margin-top: 24px;
 }
 .logo {
   color: var(--acent-color);
@@ -150,8 +152,9 @@ a {
   background-color: var(--background-effects-color);
   height: 600px;
   padding: 200px 0;
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .effects-title {
@@ -388,7 +391,7 @@ address-tel:focus {
   width: 370px;
   gap: 30px;
 }
-.border-porfolio {
+.border-portfolio {
   border: 1px solid #eeeeee;
 }
 .portfolio-img-title {
