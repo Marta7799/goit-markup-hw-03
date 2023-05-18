@@ -117,8 +117,8 @@ a {
   color: var(--main-text-color);
 }
 .nav-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .nav-item:not(:last-child) {
   margin-right: 46px;
@@ -132,8 +132,8 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--other-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .contact-mail:hover,
 .contact-mail:focus {
@@ -151,7 +151,6 @@ a {
 
 .effects {
   background-color: var(--background-effects-color);
-  height: 600px;
   padding: 200px 0;
   max-width: 1200px;
   margin: 0 auto;
@@ -184,7 +183,6 @@ a {
   background: var(--acent-color);
   cursor: pointer;
   min-width: 200px;
-  height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 41px 10px 42px;
@@ -204,7 +202,6 @@ a {
 }
 .description-item {
   width: 270px;
-  height: 101px;
 }
 .description-title {
   font-size: 14px;
@@ -286,9 +283,7 @@ a {
 .footer {
   background-color: var(--background-footer-color);
   font-style: normal;
-}
-.footer-wrap {
-  margin-right: auto;
+  height: 252px;
 }
 .footer-webstudio {
   font-family: "Raleway";
@@ -297,18 +292,14 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-bottom: 20px;
-  padding-top: 60px;
-  padding-left: 215px;
+  margin-top: 60px;
 }
 .logo {
   color: var(--acent-color);
 }
-.address-list {
-  margin-top: 20px;
-}
 .footer-address {
   font-style: normal;
+  margin-top: 20px;
 }
 .address-link:hover,
 .address-link:focus {
@@ -330,7 +321,6 @@ address-tel:focus {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-bottom: 9px;
-  padding-left: 215px;
 }
 .address-mail {
   font-weight: 400;
@@ -339,7 +329,6 @@ address-tel:focus {
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
   margin-bottom: 9px;
-  padding-left: 215px;
 }
 .address-tel {
   font-weight: 400;
@@ -347,19 +336,18 @@ address-tel:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
-  padding-left: 215px;
 }
 /* portfolio */
 
 .portfolio {
   background-attachment: var(--background-section);
   text-align: center;
-  margin-bottom: 50px;
 }
 .portfolio-list {
   display: flex;
   text-align: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
 .portfolio-button {
   font-family: inherit;
