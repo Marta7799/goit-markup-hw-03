@@ -80,7 +80,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-right: 93px;
+  margin-right: 93px;
   padding-bottom: 25px;
   padding-top: 24px;
 }
@@ -257,6 +257,7 @@ a {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .team-job {
   font-weight: 400;
@@ -300,14 +301,18 @@ address-mail:focus {
 address-tel:focus {
   color: var(--acent-color);
 }
-
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address-item:last-child {
+  margin-bottom: 60px;
+}
 .address-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-bottom: 9px;
 }
 .address-mail {
   font-weight: 400;
@@ -315,7 +320,6 @@ address-tel:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
-  margin-bottom: 9px;
 }
 .address-tel {
   font-weight: 400;
@@ -326,13 +330,9 @@ address-tel:focus {
 }
 /* portfolio */
 
-.portfolio {
-  background-attachment: var(--background-section);
-  text-align: center;
-}
 .portfolio-list {
   display: flex;
-  text-align: center;
+  justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
 }
@@ -346,15 +346,9 @@ address-tel:focus {
   cursor: pointer;
   background: #f5f4fa;
   border-radius: 4px;
-  width: 121px;
   padding: 6px 22px 6px 22px;
 }
-.portfolio-item:first-child {
-  margin-left: 281px;
-}
-.portfolio-item:last-child {
-  margin-right: 518px;
-}
+
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--acent-color);
@@ -365,22 +359,22 @@ address-tel:focus {
 }
 .portfolio-img-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 .portfolio-img-item {
   width: 370px;
-  gap: 30px;
 }
 .border-portfolio {
   border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .portfolio-img-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 24px 4px 24px;
-  text-align: left;
+  margin-top: 4px;
 }
 .portfolio-img-tekst {
   font-size: 16px;
