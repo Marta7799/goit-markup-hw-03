@@ -271,7 +271,7 @@ a {
 .footer {
   background-color: var(--background-footer-color);
   font-style: normal;
-  height: 252px;
+  padding: 60px 0;
 }
 .footer-webstudio {
   font-family: "Raleway";
@@ -280,7 +280,6 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-top: 60px;
 }
 .logo {
   color: var(--acent-color);
@@ -303,9 +302,6 @@ address-tel:focus {
 }
 .address-item:not(:last-child) {
   margin-bottom: 9px;
-}
-.address-item:last-child {
-  margin-bottom: 60px;
 }
 .address-link {
   font-weight: 400;
@@ -352,7 +348,7 @@ address-tel:focus {
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--acent-color);
-  color: #eeeeee;
+  color: var(--secondary-text-color);
 }
 .portfolio-img {
   margin-top: 50px;
@@ -368,19 +364,18 @@ address-tel:focus {
 .border-portfolio {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
+  border-top: 0;
 }
 .portfolio-img-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 4px;
+  margin-bottom: 4px;
 }
 .portfolio-img-tekst {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--other-text-color);
-  margin: 4px 24px 20px 24px;
-  text-align: left;
 }
