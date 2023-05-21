@@ -325,7 +325,6 @@ address-tel:focus {
   color: var(--footer-text-color);
 }
 /* portfolio */
-
 .portfolio-list {
   display: flex;
   justify-content: center;
@@ -349,9 +348,6 @@ address-tel:focus {
 .portfolio-button:focus {
   background-color: var(--acent-color);
   color: var(--secondary-text-color);
-}
-.portfolio-img {
-  margin-top: 50px;
 }
 .portfolio-img-list {
   display: flex;
